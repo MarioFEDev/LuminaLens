@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "Playfair-Display";
+  src: url("./PlayfairDisplay-VariableFont_wght.ttf") format("truetype");
+  font-weight: 100 ;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Playfair-Display";
+  src: url("./PlayfairDisplay-Italic-VariableFont_wght.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("./Poppins-Regular.ttf") format("truetype");
+  font-style: normal;
+}
+@font-face {
+  font-family: "Poppins-semibold";
+  src: url("./Poppins-SemiBold.ttf") format("truetype");
+  font-style: normal;
+}
+@font-face {
+  font-family: "Poppins-bold";
+  src: url("./Poppins-Bold.ttf") format("truetype");
+  font-style: normal;
+}
+@font-face {
+  font-family: "montserrat-regular";
+  src: url("./Montserrat-Regular.ttf") format("truetype");
+  font-style: normal;
+}
+@font-face {
+  font-family: "montserrat-semibold";
+  src: url("./Montserrat-SemiBold.ttf") format("truetype");
+  font-style: normal;
+}

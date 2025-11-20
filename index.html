@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LuminarLens</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fonts/fonts.css">
+    <link rel="stylesheet" href="response.css">
+</head>
+
+<body>
+    <div class="loading-screen">
+        <div class="loader"></div>
+    </div>
+
+    <header>
+        <div class="logo">
+            <div class="logo-img-con ">
+                <img src="img/logo-dark.png" alt="logo" width="100%" height="auto">
+            </div>
+            <p class="logo-text">LuminaLens</p>
+        </div>
+        <nav>
+            <a class="nav-item">Home</a>
+            <a class="nav-item">About Us</a>
+            <a class="nav-item">Our Portfolio</a>
+            <a class="nav-item">Contact Us</a>
+        </nav>
+        <button class="header-cta">Book Session</button>
+    </header>
+
+    <section class="intro-sec">
+        <h1 class="intro-text">
+            <span class="typing"></span><span class="blinker">|</span>
+            <!-- Lens & Life: <br> Where <br> Every Click <br> Counts -->
+            <!-- Lens & Life: ! Where ! Every Click ! Counts -->
+        </h1>
+        <div class="hero">
+            <div class="hero-img-con">
+                <div class="up-rip"></div>
+                <img src="img/camera.jpg" class="hero-img" alt="camera" width="100%" height="auto">
+                <div class="low-rip"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="body-section about-sec">
+        <div class="section-text about-text">
+            <h2>About Us</h2>
+            <p>
+                Welcome to LuminaLens Photography, where we freeze fleeting moments and transform them into timeless
+                memories through the lens, capturing the essence of wildlife, love-filled weddings, curated interiors,
+                vast landscapes, and delectable gourmet cuisine, blending creativity and technical expertise to bridge
+                the gap between the visual and the emotional, aiming to craft each photograph into a unique narrative
+                that resonates with hearts, inviting you to join us on this photographic journey where every click is a
+                testament to life's beautiful moments.
+            </p>
+        </div>
+        <div class="about-video-con">
+            <video class="about-video" src=""></video>
+        </div>
+    </section>
+
+    <section class="body-section portfolio-sec">
+        <div class="section-text portfolio-text">
+            <h2>Our Portfolio</h2>
+            <p>
+                Explore the beauty of diverse worlds through our lens - from the untamed wilderness to love-filled
+                weddings, curated interiors, vast landscapes, and exquisite gourmet creations, each frame holds a story
+                waiting to be told
+            </p>
+        </div>
+        <div class="portfolio-grid">
+            <div class="portfolio-grid-img"></div>
+            <div class="portfolio-grid-img"></div>
+            <div class="portfolio-grid-img"></div>
+            <div class="portfolio-grid-img"></div>
+            <div class="portfolio-grid-img"></div>
+        </div>
+    </section>
+
+    <section class="body-section faq-sec">
+        <div class="section-text faq-text">
+            <h2>FAQ</h2>
+            <p>
+                Got questions? We've got answers! Browse our FAQ for all the info you need
+            </p>
+        </div>
+        <div class="faqNa-con">
+            <div class="faqNa">
+                <div class="question">
+                    <p class="faq-question">What types of photography services do you offer?</p>
+                    <div class="faq-icon first-icon" onclick="showAnswer(this)" isOpen="0"><img src="img/plus.png" alt="icon"
+                            width="100%" height="100%"></div>
+                </div>
+                <div class="answer">
+                    <p>Unless you're asking us to photograph aliens, we've probably got you covered. We offer a full
+                        range of services including portraits, events, product shoots, lifestyle sessions, corporate
+                        branding, and more. Whatever your vision, we tailor the session to bring it to life.</p>
+                </div>
+            </div>
+            <div class="faqNa">
+                <div class="question">
+                    <p class="faq-question">How can I book a photography session with your studio?</p>
+                    <div class="faq-icon" onclick="showAnswer(this)" isOpen="0"><img src="img/plus.png" alt="icon"
+                            width="100%" height="100%"></div>
+                </div>
+                <div class="answer">
+                    <p>If booking us feels harder than finding good lighting at noon, we’ve failed. You can easily book
+                        a session through our online form, via email, or by giving us a quick call. Once we confirm
+                        availability, we’ll lock in your date and guide you through the next steps.</p>
+                </div>
+            </div>
+            <div class="faqNa">
+                <div class="question">
+                    <p class="faq-question">Do you offer customized photography packages?</p>
+                    <div class="faq-icon" onclick="showAnswer(this)" isOpen="0"><img src="img/plus.png" alt="icon"
+                            width="100%" height="100%"></div>
+                </div>
+                <div class="answer">
+                    <p>We don't believe in one-size-fits-all, unless of-course we’re talking about snacks. Yes, we offer
+                        fully customizable packages to suit your budget, style, and project needs. Just tell us what
+                        you're aiming for, and we’ll build a package that fits perfectly.</p>
+                </div>
+            </div>
+            <div class="faqNa">
+                <div class="question">
+                    <p class="faq-question">Can we view sample work or a portfolio before booking?</p>
+                    <div class="faq-icon" onclick="showAnswer(this)" isOpen="0"><img src="img/plus.png" alt="icon"
+                            width="100%" height="100%"></div>
+                </div>
+                <div class="answer">
+                    <p>Of course, you wouldn’t buy a mystery box of photos… or would you? Our full portfolio is
+                        available on our website and social platforms, showcasing past shoots across different styles
+                        and categories. You’re welcome to browse to ensure our work aligns with your vision</p>
+                </div>
+            </div>
+            <div class="faqNa">
+                <div class="question">
+                    <p class="faq-question">Are your photographers experienced and skilled?</p>
+                    <div class="faq-icon" onclick="showAnswer(this)" isOpen="0"><img src="img/plus.png" alt="icon"
+                            width="100%" height="100%"></div>
+                </div>
+                <div class="answer">
+                    <p> They didn't get good by accident, trust me we checked. Our photographers are trained,
+                        experienced, and passionate about capturing stunning, high-quality images. We stay updated with
+                        the latest techniques and equipment to ensure every shoot exceeds expectations.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-head">
+            <div class="logo">
+                <div class="logo-img-con">
+                    <img src="img/logo-light.png" alt="logo" width="100%" height="auto">
+                </div>
+                <p class="logo-text">LuminaLens</p>
+            </div>
+            <div class="socials">
+                <a>X</a>
+                <a>Instagram</a>
+                <a>LinkedIn</a>
+                <a>Behance</a>
+            </div>
+        </div>
+
+        <div class="footer-content">
+            <h1 class="footer-quote">
+                LuminarLens: <br> Illuminating Life's <br> Moments, One <br> Frame at a Time
+            </h1>
+            <div class="footer-text">
+                <p>Thank you for visiting LuminarLens, where we are dedicated to preserving life's most beautiful
+                    moments through the art of photography. Our passion lies in crafting timeless memories and capturing
+                    emotions that last a lifetime. If you have any inquiries or would like to schedule a session, please
+                    don't hesitate to reach out to us.</p>
+                <div class="footer-button-con">
+                    <button class="book">Book Session</button>
+                    <button class="contact">Contact Us</button>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

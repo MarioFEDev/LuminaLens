@@ -1,0 +1,171 @@
+@media screen and (max-width : 880px) {
+    header {
+        padding: 10px 20px;
+    }
+
+    .logo-text {
+        font-size: 15pt;
+    }
+
+    .logo-img-con {
+        height: 80%;
+    }
+
+    nav {
+        gap: 10px;
+    }
+
+    nav a {
+        font-size: 10pt;
+    }
+
+    .header-cta {
+        font-size: 12pt;
+    }
+
+    .footer-button-con button {
+        padding: 8px 8px;
+        font-size: 9pt;
+    }
+
+    .footer-button-con {
+        gap: 20px;
+    }
+
+    .about-video {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 16/9;
+    }
+}
+
+
+
+@media screen and (max-width : 650px) {
+    .about-video {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 16/9;
+    }
+
+    header {
+        padding: 10px 20px;
+    }
+
+
+    .logo-text {
+        font-size: 15pt;
+    }
+
+    .logo-img-con {
+        height: 80%;
+    }
+
+    nav {
+        gap: 10px;
+    }
+
+    nav a {
+        font-size: 10pt;
+    }
+
+    .header-cta {
+        font-size: 12pt;
+    }
+
+    .footer-button-con button {
+        padding: 8px 8px;
+        font-size: 12pt;
+    }
+
+    .footer-button-con {
+        gap: 20px;
+    }
+
+
+    .body-section {
+        padding: 10px 20px;
+    }
+
+    .section-text {
+        grid-template-columns: 1fr;
+    }
+
+    .portfolio-grid {
+        grid-template-columns: 1fr;
+        grid-auto-rows: 250px;
+    }
+
+    .portfolio-grid-img {
+        grid-column: auto !important;
+        grid-row: auto !important;
+    }
+
+    .faqNa {
+        transform: translateX(-70px);
+    }
+
+    footer {
+        padding: 50px 20px;
+    }
+
+    .footer-content {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-head {
+        flex-direction: column;
+        align-items: flex-start;
+        height: fit-content
+    }
+
+    .footer-head .logo {
+        height: 150px;
+        translate: -20px;
+    }
+
+    .footer-head .logo .logo-text {
+        font-size: 35pt;
+    }
+
+
+
+
+    /* NEW HEADER LAYOUT */
+    header {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 1rem 2rem;
+        gap: 1rem;
+        margin-bottom: 50px;
+    }
+
+    /* LOGO */
+    header .logo {
+        order: 1;
+        flex: 1 1 auto;
+        /* stays on the left */
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    /* CTA BUTTON */
+    header .header-cta {
+        order: 2;
+        flex: 0 0 auto;
+        /* stays on the right */
+    }
+
+    /* NAV — full width, second row */
+    header nav {
+        order: 3;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        /* center the nav items */
+        gap: 2rem;
+    }
+
+}
