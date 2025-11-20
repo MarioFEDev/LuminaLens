@@ -96,5 +96,5 @@ defArrays.forEach(array => {
 
 
 window.onload = () => {
-    setTimeout(initWebpage, 5000)
+    setTimeout(initWebpage, 500)
 } 
